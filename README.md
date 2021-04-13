@@ -15,6 +15,6 @@
 1. Install [tampermonkey](https://www.tampermonkey.net/)
 2. Add new script
 3. Paste and save [linked js code](https://raw.githubusercontent.com/bumbeishvili/create-branch-from-issue/main/script.js)
-
-
-
+4. Github Enterprise Only:
+    *  Change the `@match` url to match your github server
+    *  `// @match https://github.com/*` => `// @match https://github.companyname.com/*`
